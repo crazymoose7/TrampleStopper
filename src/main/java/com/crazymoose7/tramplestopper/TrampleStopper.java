@@ -27,7 +27,7 @@ public class TrampleStopper implements ModInitializer {
 			for (ItemStack itemStack : player.getArmorItems()) {
 				if (itemStack.getItem() instanceof ArmorItem) {
 					ArmorItem armorItem = (ArmorItem) itemStack.getItem();
-					if (armorItem.method_7685() == EquipmentSlot.FEET && EnchantmentHelper.getLevel(Enchantments.FEATHER_FALLING, itemStack) >= 1) {
+					if (armorItem.getSlotType() == EquipmentSlot.FEET && EnchantmentHelper.getLevel(Enchantments.FEATHER_FALLING, itemStack) >= 1) {
 						return true;
 					}
 				}
