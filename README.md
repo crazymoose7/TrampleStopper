@@ -1,9 +1,7 @@
-# Fabric Example Mod
+# Trample Stopper
 
-## Setup
+Tired of crops breaking (trampling) when you accidently fall or jump onto one ?
 
-For setup instructions please see the [fabric documentation page](https://docs.fabricmc.net/develop/getting-started/setting-up-a-development-environment) that relates to the IDE that you are using.
+Look no further, this mod prevents any crop trampling when a player's boots are enchanted with feather falling.
 
-## License
-
-This template is available under the CC0 license. Feel free to learn from it and incorporate it in your own projects.
+Modern port of [this](https://www.curseforge.com/minecraft/mc-mods/trample-stopper-fabric), respective credit is due
